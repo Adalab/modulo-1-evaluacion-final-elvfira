@@ -1,0 +1,40 @@
+.cover {
+    height: 100vh;
+    background-image: url($pathImages + 'cover.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cover h1 {
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-size: $font-titles;
+}
+
+.cover h2 {
+    color: $white;
+    text-align: center;
+    font-size: $font-main;
+    margin-bottom: 45px;
+}
+
+.link-purchase {
+    align-self: center;
+    margin-bottom: 90px;
+
+}
+
+.link-purchase button {
+    background-color: $white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.hero-button {
+    transform: translateY(40%);
+}
