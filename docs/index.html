@@ -3,66 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <title>Anonymous proxy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+    <header class="header">
+        <a class="link">
+          <button class="menu">
+            <img src="./assets/images/ico-menu.svg" class="hamb" />
+          </button>
+        </a>
       </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
+    <main>
+      <section class="cover">
+        <h1 class="title">anonymous proxy</h1>
+        <p class="cover-p">In hac habitasse platea dictumst.</p>
+        <a class="link-purchase" href="index.html#purchase-h2">
+          <button class="scroll">
+            <img src="./assets/images/ico-scroll-down.svg" class="hero-button" />
+          </button>
+        </a>
+      </section>
+      <section class="windows-box">
+        <div class="tips">
+          <span class="tips-text">Insomnia Tips</span>
+        </div>
+        <h2 class="window">Looking Through A Window</h2>
+        <p class="window-p">
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <button class="button-empty">Go</button>
+      </section>
+      <section class="purchase">
+        <h2 class="purchase-h2" id="purchase-h2">3 Reasons To Purchase</h2>
+        <div class="grid-container">
+          <article class="article-class">
+            <h3 class="purchase-title">Ut sed metus</h3>
+            <p class="purchase-text">Lorem ipsum dolor sit amet, consecteur.</p>
+          </article>
+          <article class="article-class">
+            <h3 class="purchase-title">Curabitur ac erat</h3>
+            <p class="purchase-text">Mauris mattis urna quis lorem molestie.</p>
+          </article>
+          <article class="article-class">
+            <h3 class="purchase-title">Morbi dictum</h3>
+            <p class="purchase-text">Aliquam in dolor et dolor tincidunt.</p>
+          </article>
+        </div>
+        <buttonc class="button-filled">More reasons</button>
+      </section>
+    </main>
 
+    <footer class="footer">
+      <a class="link-top" href="index.html#top">
+        <button class="button-top">
+          <img src="./assets/images/ico-arrow.svg" class="arrow-button" />
+        </button>
+      </a>
+      <div class="footer-links">
+        <ul class="site-map">
+          <li class="site-map-item" href="https://adalab.es" target="_blank">
+            <a class="site-map-link">articles</a>
           </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
+          <li class="site-map-item" href="https://adalab.es" target="_blank">
+            <a class="site-map-link">book</a>
+          </li>
+          <li class="site-map-item" href="https://adalab.es" target="_blank">
+            <a class="site-map-link">events</a>
+          </li>
+          <li class="site-map-item" href="https://adalab.es" target="_blank">
+            <a class="site-map-link">reasons</a>
+          </li>
+          <li class="site-map-item" href="https://adalab.es" target="_blank">
+            <a class="site-map-link">tips</a>
           </li>
         </ul>
-      </main>
+        <ul class="social-networks">
+          <li class="social-networks-item" href="https://adalab.es" target="_blank">
+            <a class="social-networks-link">twitter</a>
+          </li>
+          <li class="social-networks-item" href="https://adalab.es" target="_blank">
+            <a class="social-networks-link">instagram</a>
+          </li>
+          <li class="social-networks-item" href="https://adalab.es" target="_blank">
+            <a class="social-networks-link">mastodon.social</a>
+          </li>
+        </ul>
+        <aside class="extra-info">
+          <small class="copyright">&copy2021</small>
+          <small class="slogan">we<span class="heart">♥</span>components</small>
+        </aside>
+      </div>
+    </footer>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
+    
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
