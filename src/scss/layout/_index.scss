@@ -19,9 +19,11 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 55px;
+    max-width: 290px;
     @media (min-width: 768px) {
       font-size: 80px;
       line-height: 106px;
+      max-width: 690px;
     }
     @media (min-width: 1268px) {
       font-size: 100px;
